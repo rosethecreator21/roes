@@ -6,8 +6,8 @@ document.getElementById('form')
 
         btn.value = 'Überprüfen...';
 
-        const serviceID = 'service_gcm9ct8';
-        const templateID = 'template_ybfdk3g';
+        const serviceID = 'service_eqszx4l';
+        const templateID = 'template_0w116j9';
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
